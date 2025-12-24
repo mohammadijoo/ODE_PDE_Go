@@ -136,7 +136,7 @@ func stylePlot(p *plot.Plot) {
 	p.X.Tick.Label.Font.Size = vg.Points(14)
 	p.Y.Tick.Label.Font.Size = vg.Points(14)
 
-	p.X.Tick.Marker = limitedTicker(10, "%.1f")
+	p.X.Tick.Marker = limitedTicker(10, "%.2f")
 	p.Y.Tick.Marker = limitedTicker(10, "%.1f")
 }
 
